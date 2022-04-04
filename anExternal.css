@@ -1,0 +1,28 @@
+img {
+	height: 100px;
+	width: 100px;
+    	border-radius: 15px;
+	margin: 20px;
+}
+
+p:first-of-type {
+	background-color:silver;
+	font-family: 'Serif', 'Times New Roman';
+}
+
+p {
+    	font-family: 'sans-serif', 'Arial';
+    	border-style: dotted;
+}
+
+.container {
+	position: relative;
+	text-align: center;
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
